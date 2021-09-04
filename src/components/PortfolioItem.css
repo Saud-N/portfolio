@@ -1,0 +1,60 @@
+.portfolio-item{
+  position: relative;
+  box-sizing: border-box;
+  /* border: 1px red solid; */
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  /* border: green solid; */
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition-duration: 0.5s;
+}
+
+.text-container {
+  color: white;
+  font-size: 30px;
+  width:100%;
+  height: 100%;
+}
+
+
+.text-container h1 {
+  text-align: center;
+  font-size: 6vmin;
+  padding: 0 10%;
+}
+
+.text-container p {
+  top: 4vh;
+  text-align: center;
+  padding: 0 10%;
+  font-size: 4vmin;
+
+}
+
+.portfolio-item-small h1 {
+  font-size: calc(0.4 * 6vw);
+}
+
+.portfolio-item-small p {
+  font-size: calc(0.4 * 4vw);
+}
+
+
+.portfolio-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+
+}
+.text-container:hover {
+  background-color: rgba(0, 0, 0, .5);
+  opacity: 1;
+}

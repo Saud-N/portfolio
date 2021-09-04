@@ -1,0 +1,8 @@
+.home {
+  display: grid;
+  width: 100%;
+  /* calc(100vw - (100vw - 100%)); */
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 300px;
+  grid-auto-rows: 33.32vw;
+}

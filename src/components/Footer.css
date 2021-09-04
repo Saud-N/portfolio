@@ -1,0 +1,45 @@
+.footer {
+    display: flex;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: black;
+    color: white;
+    min-height: 20vw;
+    gap:5vmin;
+    flex-wrap: wrap;
+}
+
+.footer-item {
+    padding:25px;
+    padding-top: 50px;
+    min-width: 25vmin;
+}
+
+.footer-item h1 {
+    font-size: 5vmin;
+}
+
+.footer-item p {
+    font-size: 2vmin;
+}
+
+.footer .logo {
+    padding-top: 75px;
+
+}
+
+.footer .logo img {
+    width: 100px;
+    height: 100px;
+}
+
+.links-container {
+    margin-top: 20px;
+}
+
+.footer .social img {
+    display: inline-block;
+    width:30px;
+    height: auto;
+    margin-inline: 10px;
+}
+

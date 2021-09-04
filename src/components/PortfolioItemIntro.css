@@ -1,0 +1,12 @@
+.portfolio-item-intro {
+    align-self: center;
+    justify-self: center;
+    padding: 2em;
+    padding-left: 5vmin;
+    color: #1b2936;
+}
+
+.portfolio-item-intro h1 {
+    font-size: 5vmin;
+    word-wrap: break-word;
+}

@@ -1,0 +1,14 @@
+.portfolio-item-intro-picture {
+    /* border: 1px red solid; */
+    overflow: hidden;
+    height: 100%;
+    align-self: end;
+    justify-self: end;
+    
+}
+.portfolio-item-intro-picture img {
+    display: block;
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
